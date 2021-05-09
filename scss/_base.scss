@@ -1,0 +1,41 @@
+:root {
+  --color-primary: hsl(233, 47%, 7%);
+  --color-secondary: hsl(244, 38%, 16%);
+  --color-accent: hsl(277, 64%, 61%);
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-transparent-white-1: hsla(0, 0%, 100%, 0.75);
+  --color-transparent-white-2: hsla(0, 0%, 100%, 0.6);
+
+  --desktop-widh: 114rem;
+  --mobile-widh: 37.5rem;
+
+  --primary-font-stack: "Inter", sans-serif;
+  --secondary-font-stack: "Lexend Deca", sans-serif;
+  --default-font-size: 1.5rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: inherit;
+
+  @media screen and (max-width: 950px) {
+    font-size: 50%;
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: 44%;
+  }
+}
+
+body {
+  line-height: 1.4;
+  box-sizing: border-box;
+}

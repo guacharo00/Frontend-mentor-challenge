@@ -1,0 +1,32 @@
+.heading-1 {
+  font-family: var(--primary-font-stack);
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--color-white);
+
+  span {
+    color: var(--color-accent);
+  }
+}
+
+.paragraph {
+  font-family: var(--secondary-font-stack);
+  font-size: var(--default-font-size);
+  font-weight: 400;
+  color: var(--color-transparent-white-1);
+}
+
+.card__stat-heading {
+  font-family: var(--primary-font-stack);
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+.card__stat-section {
+  font-family: var(--secondary-font-stack);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-transparent-white-2);
+  text-transform: uppercase;
+}
